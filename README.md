@@ -10,6 +10,13 @@ Simple Flask project that loads pandas dataframe into the database and shows the
 
 <br />
 
+> Links 
+
+- 👉 [Support](https://appseed.us/support/) - Provided by [AppSeed](https://appseed.us/)
+- 👉 More [Open-Source Starters](https://appseed.us/admin-dashboards/open-source/) - actively supported and versioned 
+
+<br />
+
 **Pandas Dataframe** - Console View
 
 ![Flask Pandas Dataframe - media file.](https://raw.githubusercontent.com/app-generator/flask-pandas-dataframe/main/media/screen.png)
