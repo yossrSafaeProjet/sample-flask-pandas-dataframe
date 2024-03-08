@@ -27,5 +27,11 @@ flask load-data titanic-min.csv
 export FLASK_APP=app.py
 
 #Tourner l'application
-flask run 
+flask run --host=0.0.0.0 --port=31201
+
+
+#Pour Le docker 
+J'ai crer le Dockerfile pui j'ai fais ces deux commandes
+docker volume create portainer_data 
+docker run -d -p 32125:8000 -p 32126:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock  -v portainer_datas:/data portainer/portainer-ce:latest
 
